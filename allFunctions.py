@@ -24,7 +24,6 @@ class allFunc():
         Gender = input("Your Gender:")
         age = int(input("Your Age:"))
         if(Gender == "Male" and age >= 21) or (Gender == "Female" and age >= 18):
-            if(age >= 21):
                 print("Elegibile")
             else:
                 print("Not Elegibile")
